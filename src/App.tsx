@@ -4,7 +4,7 @@ import Showcase from './components/HomepageShowcase'
 import HomepageAbout from './components/HomepageAbout'
 import ProjectsGrid from './components/ProjectsGrid'
 import PageEnd from './components/PageEnd'
-import { BrowserRouter, Route, Routes } from "react-router"
+import { HashRouter, Route, Routes } from "react-router"
 import ThailandProject from './components/Projects/Thailand'
 
 
@@ -12,7 +12,7 @@ import ThailandProject from './components/Projects/Thailand'
 {/* This code block is for the Homepage */}
 const App = () => {
   return (
-    <BrowserRouter basename={import.meta.env.VITE_PUBLIC_URL}>
+    <HashRouter basename={import.meta.env.VITE_PUBLIC_URL}>
       <Routes>
         <Route index element={
            <Flex direction='column'>
@@ -32,7 +32,7 @@ const App = () => {
         <Route path='Portfolio' element={<PortfolioPage />}></Route>
         <Route path='Thailand' element={<ThailandPage />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

@@ -18,10 +18,10 @@ const Navbar = () => {
                 <Link href="\" weight="bold" size='5'> 
                     Home
                 </Link>
-                <Link href="about" weight="bold" size='5'>
+                <Link href="#/about" weight="bold" size='5'>
                     About Me
                 </Link>
-                <Link href="Portfolio" weight="bold" size='5'>
+                <Link href="#/Portfolio" weight="bold" size='5'>
                     Portfolio
                 </Link>
             </Flex>

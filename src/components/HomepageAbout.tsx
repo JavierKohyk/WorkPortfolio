@@ -23,7 +23,7 @@ const HomepageAbout = () => {
                     id est laborum.
                 </Text>
                 <Flex justify="end" pt='4' gap="3" align="center">
-                    <Link href="about">
+                    <Link href="#/about">
                         <Button size="3" variant="solid" style={{"backgroundColor":"beige"}}>
                             <Text style={{"color":"#123456"}}> More about me </Text>
                         </Button>

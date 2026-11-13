@@ -12,7 +12,7 @@ import ThailandProject from './components/Projects/Thailand'
 {/* This code block is for the Homepage */}
 const App = () => {
   return (
-    <HashRouter basename={import.meta.env.VITE_PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route index element={
            <Flex direction='column'>

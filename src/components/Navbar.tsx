@@ -15,7 +15,7 @@ const Navbar = () => {
                 </Text>
             </Flex>
             <Flex gap="5">
-                <Link href="\" weight="bold" size='5'> 
+                <Link href="#/" weight="bold" size='5'> 
                     Home
                 </Link>
                 <Link href="#/about" weight="bold" size='5'>

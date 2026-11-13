@@ -7,10 +7,12 @@ import PageEnd from './components/PageEnd'
 import { BrowserRouter, Route, Routes } from "react-router"
 import ThailandProject from './components/Projects/Thailand'
 
+
+
 {/* This code block is for the Homepage */}
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.VITE_PUBLIC_URL}>
       <Routes>
         <Route index element={
            <Flex direction='column'>

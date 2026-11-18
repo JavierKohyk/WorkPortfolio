@@ -20,13 +20,13 @@ const MSFProject = () => {
 This project was done as part of a 24-week internship with the Ministry of Social and Family Development (MSF) from June 2026 to November 2026.
 </Text>
 <Text>
-<Strong>Project:</Strong> will distance between residence and location of employment influence the employment outcomes of clients in program A?
+<Strong>Project:</Strong> Will distance between residence and location of employment influence the employment outcomes of clients in program A?
 </Text>
 <Text>
 <Strong>Hypothesis 1:</Strong> A longer network distance (measured by travel time) between the residence of clients and the nearest town of high job density of client hiring industries results in a lower likelihood of entering stable employment.
 </Text>
 <Text>
-<Strong>Hypothesis 2:</Strong> A longer network distance (measured by travel time) between the residence of clients and the nearest town of high job density of client hiring industries results in a lower likelihood of remaining in employment.
+<Strong>Hypothesis 2:</Strong> A longer network distance (measured by travel time) between the residence of employed clients and place of employment results in a lower likelihood of remaining in employment.
 </Text>
 <Text>
 <Strong>Motivation:</Strong> The findings could help translate geospatial analysis into practical recommendations.

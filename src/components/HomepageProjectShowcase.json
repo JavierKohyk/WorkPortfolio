@@ -1,15 +1,15 @@
 [
     {
         "Title": "How distance to jobs affects employment outcomes of MSF program clients in Singapore",
-        "Image": "image2",
-        "Description": "This project was done as part of my internship with the Ministry of Social and Family Development.",
-        "Link":"about"
+        "Image": "../assets/MSF Fig 1.png",
+        "Description": "This project was done as part of my internship with the Ministry of Social and Family Development. This project looks at how travel distance to location of employment could impact employment outcomes.",
+        "Link":"#/MSF"
     },
     {
         "Title": "Community Mapping of Environmental Conservation Zones in Thailand",
         "Image": "image1",
-        "Description":"This project was done in collaboration between NUS, IMPECT, and the village of Ban Mae Yang Min in Chiang Mai. Manual collection of data was done using Garmin GPS, while the map was created in ArcGIS, and information about where the conservation areas were were provided by the villagers. The map was useful in ensuring that the village could continue to steward their land, and pushing government agencies to improve local infrastructure.",
-        "Link":"Thailand"
+        "Description":"This project was done in collaboration between NUS, IMPECT, and the village of Ban Mae Yang Min in Chiang Mai. The map was created in order to help fight for land rights and government recognition of the village's efforts in conservation.",
+        "Link":"#/Thailand"
     }
 ]
 

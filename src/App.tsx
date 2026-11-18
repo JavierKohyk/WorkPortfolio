@@ -1,4 +1,4 @@
-import { Flex, Heading, Separator, Text } from '@radix-ui/themes'
+import { Flex, Heading, Separator, Text, Link } from '@radix-ui/themes'
 import { HashRouter, Route, Routes } from "react-router"
 
 import Navbar from './components/Navbar'
@@ -57,8 +57,8 @@ const AboutPage = () => {
             />
         <Text>
             <Heading size='4'> Contact Me </Heading>
-            Email: kohyk.javier@gmail.com<br/>
-            Linkedin: www.linkedin.com/in/javier-kohyk
+            Email: <Link href='mailto:kohyk.javier@gmail.com'>kohyk.javier@gmail.com </Link><br/>
+            Linkedin: <Link href='https://www.linkedin.com/in/javier-kohyk' target='_blank' rel="noopener noreferrer">www.linkedin.com/in/javier-kohyk</Link>
         </Text>
         </Flex>
         <Flex direction='column' gap ='3'>

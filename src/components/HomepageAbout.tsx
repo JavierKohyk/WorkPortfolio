@@ -14,7 +14,7 @@ const HomepageAbout = () => {
                     Hello There! 
                 </Text>
                 <Text size='5' style={{color:"beige", fontFamily:"Libre Caslon Text"}}>
-                    My name is Javier. I am a student in the National University of Singapore, studying geography as well as geographical information systems (GIS). I like to
+                    My name is Javier. I am a student in the National University of Singapore, studying geography as well as Geographical Information Systems (GIS). I like to
                     work with data, and am always eager to learn about more new things. On this website, you will get to see some of the projects I have worked on, and some of my interests in geospatial data as well as data analysis and visualization.
                 </Text>
                 <Flex justify="end" pt='4' gap="3" align="center">
